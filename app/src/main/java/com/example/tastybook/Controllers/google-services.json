@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393684723525",
+    "project_id": "tastybook-3dddf",
+    "storage_bucket": "tastybook-3dddf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393684723525:android:12258d0eed6898e1e1802c",
+        "android_client_info": {
+          "package_name": "com.example.tastybook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuzpIpUmf_AbZZKTHSm-_aV9eTeO_EhVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

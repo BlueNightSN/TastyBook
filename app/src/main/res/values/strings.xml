@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TastyBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="recipe_categories">
+        <item>All</item>
+        <item>איטלקי</item>
+        <item>אסייתי</item>
+        <item>מקסיקני</item>
+        <item>ים תיכוני</item>
+        <item>הודי</item>
+        <item>אמריקאי</item>
+        <item>צרפתי</item>
+    </string-array>
+</resources>

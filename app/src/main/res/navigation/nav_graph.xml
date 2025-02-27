@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainPageFragment">
+
+    <!-- Main Page Fragment (Start Destination) -->
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.example.tastybook.Views.Fragments.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+
+        <!-- ✅ Fixed: Now navigating to the correct fragment -->
+        <action
+            android:id="@+id/action_mainPageFragment_to_recipeListFragment"
+            app:destination="@id/recipeListFragment" />
+    </fragment>
+
+    <!-- ✅ Added Recipe List Fragment -->
+    <fragment
+        android:id="@+id/recipeListFragment"
+        android:name="com.example.tastybook.Views.Fragments.RecipeListFragment"
+        android:label="Recipe List"
+        tools:layout="@layout/fragment_recipe_list" >
+        <action
+            android:id="@+id/action_recipeListFragment_to_addRecipeFragment"
+            app:destination="@id/addRecipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRecipeFragment"
+        android:name="com.example.tastybook.Views.Fragments.AddRecipeFragment"
+        android:label="AddRecipeFragment" />
+
+</navigation>
